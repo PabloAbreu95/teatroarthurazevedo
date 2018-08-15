@@ -49,10 +49,6 @@
       </ul>
       <form class=" my-2 my-lg-0">
         <a class="nav-link " href="#" id="btn-entrar">
-
-
-
-
           Entrar
         </a>
       </form>
@@ -63,6 +59,34 @@
 
 
   <?php $this->loadViewInTemplate($viewName, $viewData) ?>
+
+  <!-- Rodapé-->
+  <section class="bg-dark container-fluid text-center text-white">
+    <footer>
+      <div class="row">
+        <div class="col-md-4 my-2">
+          <p class="font-weight-bold">Ajuda</p>
+          <a href="#">Informações</a><br>
+          <a href="#">Histórico</a><br>
+          <a href="#">Funcionamento</a><br>
+        </div>
+        <div class="col-md-4 my-2">
+          <p class="font-weight-bold">Sobre</p>
+          <a href="#">Atores</a><br>
+          <a href="#">Imagens</a><br>
+          <a href="#">Memória</a><br>
+        </div>
+        <div class="col-md-4 my-2">
+          <p class="font-weight-bold">Teatro Arthur Azevedo</p>
+          <p>Rua do Sol, S/n - Centro, São luís - MA 65010120</p>
+          <p>(98)3218-9900</p>
+        </div>
+      </div>
+      <div class="row">
+
+      </div>
+    </footer>
+  </section>
   <script type="text/javascript" src="<?php echo BASE_URL;?>assets/js/jquery.min.js"></script>
   <script type="text/javascript" src="<?php echo BASE_URL;?>assets/js/bootstrap.min.js"></script>
 </body>

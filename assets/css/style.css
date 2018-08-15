@@ -15,3 +15,32 @@
   border: solid 1px #e6e6e6;
   border-radius: 10px;
 }
+/* Sections */
+section{
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+/* background red */
+.bgred{
+  background-color: #65140F;
+}
+
+.titulo{
+
+}
+
+.sub-titulo{
+
+}
+/* Gradiente */
+.grad {
+  background: linear-gradient(to right, #8D3992 , #FE527A);
+}
+/* Footer */
+footer a{
+  color: #b3b3b3;
+}
+footer a:hover{
+  color: #fff;
+  text-decoration: none;
+}
