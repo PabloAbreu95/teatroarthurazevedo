@@ -1,0 +1,17 @@
+/* Navbar */
+#navbar-topo a{
+  color: #b3b3b3;
+}
+#navbar-topo a:hover{
+  color: #fff;
+}
+#navbar-topo .subitem{
+  color: #4d4d4d;
+}
+#navbar-topo .subitem:hover{
+  color: #4d4d4d;
+}
+#navbar-topo #btn-entrar{
+  border: solid 1px #e6e6e6;
+  border-radius: 10px;
+}
